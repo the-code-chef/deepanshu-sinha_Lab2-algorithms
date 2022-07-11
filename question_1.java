@@ -15,7 +15,7 @@ class PayMoney {
         System.out.print("Enter the values of target: ");
         int targetValue = sc.nextInt();
         sc.close();
-        int finalTransactionNumber = nishu(arr, target, targetValue);
+        int finalTransactionNumber = calcTransaction(arr, target, targetValue);
         if (finalTransactionNumber > 0) {
             System.out.print("Target achieved after " + finalTransactionNumber + " transactions");
         } else {
@@ -23,7 +23,7 @@ class PayMoney {
         }
     }
 
-    public static int nishu(int[] arr, int target, int targetValue) {
+    public static int calcTransaction(int[] arr, int target, int targetValue) {
         int sum = 0;
         for (int i = 0; i < target; i++) {
             sum += arr[i];
