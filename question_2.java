@@ -1,3 +1,8 @@
+/*
+ * You are a traveler and traveling to a country where the currency denominations are unknown and as you travel, you get to know about the denomination in random order. You want to make a payment of amount x, in such a way that the number of notes you give is minimum. 
+ //Assume that the denominations are in such a way that any amount can be paid
+ */
+
 import java.util.Scanner;
 
 class CountMoney {
